@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema({
         type: Number,
         require: true,
     },
-    age: {
+    date: {
         type: String,
         default: Date.now,
     },
